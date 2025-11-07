@@ -1,172 +1,181 @@
-{
-"Basic Programs": [
-{
-"filename": "Hello.c",
-"language": "C",
-"description": "Displays 'Hello World' — the first C program for beginners.",
-"difficulty": "Beginner"
-},
-{
-"filename": "Addition1.c",
-"language": "C",
-"description": "Accepts two numbers and displays their sum.",
-"difficulty": "Beginner"
-},
-{
-"filename": "Hello.java",
-"language": "Java",
-"description": "Basic Java program printing 'Hello Java'.",
-"difficulty": "Beginner"
-}
-],
+# C-CPP-JAVA_PRACTICE
 
-"String Handling": [
-{
-"filename": "StrCpySmall.cpp",
-"language": "C++",
-"description": "Copies only lowercase characters from one string to another.",
-"difficulty": "Intermediate"
-},
-{
-"filename": "StrCatX.cpp",
-"language": "C++",
-"description": "Concatenates two strings without using built-in functions.",
-"difficulty": "Intermediate"
-},
-{
-"filename": "StringReverse.c",
-"language": "C",
-"description": "Reverses a string using manual iteration.",
-"difficulty": "Beginner"
-},
-{
-"filename": "StringBufferDemo.java",
-"language": "Java",
-"description": "Demonstrates use of StringBuffer and mutable strings.",
-"difficulty": "Intermediate"
-}
-],
+![GitHub repo size](https://img.shields.io/github/repo-size/BharatPatil-1307/C-CPP-JAVA_PRACTICE)
+![GitHub language count](https://img.shields.io/github/languages/count/BharatPatil-1307/C-CPP-JAVA_PRACTICE)
+![GitHub top language](https://img.shields.io/github/languages/top/BharatPatil-1307/C-CPP-JAVA_PRACTICE)
+![GitHub last commit](https://img.shields.io/github/last-commit/BharatPatil-1307/C-CPP-JAVA_PRACTICE)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-"File Handling": [
-{
-"filename": "FileDemo.c",
-"language": "C",
-"description": "Reads content from a file and displays it on screen.",
-"difficulty": "Intermediate"
-},
-{
-"filename": "CountCapitalCharacter.cpp",
-"language": "C++",
-"description": "Counts total number of uppercase letters in a text file.",
-"difficulty": "Intermediate"
-},
-{
-"filename": "WriteFile.java",
-"language": "Java",
-"description": "Writes user-provided string data to a file.",
-"difficulty": "Intermediate"
-},
-{
-"filename": "AppendText.java",
-"language": "Java",
-"description": "Appends text to an existing file without overwriting.",
-"difficulty": "Intermediate"
-}
-],
+A collection of C, C++ and Java practice programs organized by key programming topics — designed to help you strengthen your fundamentals through hands-on coding.
 
-"Object-Oriented Programming": [
-{
-"filename": "Abstract.cpp",
-"language": "C++",
-"description": "Demonstrates use of abstract classes and virtual functions.",
-"difficulty": "Advanced"
-},
-{
-"filename": "AbstractDemo.java",
-"language": "Java",
-"description": "Shows abstraction and abstract methods in Java.",
-"difficulty": "Advanced"
-},
-{
-"filename": "Inheritance.cpp",
-"language": "C++",
-"description": "Demonstrates single and multiple inheritance concepts.",
-"difficulty": "Intermediate"
-},
-{
-"filename": "PolymorphismDemo.java",
-"language": "Java",
-"description": "Explains method overriding and runtime polymorphism.",
-"difficulty": "Advanced"
-},
-{
-"filename": "InterfaceExample.java",
-"language": "Java",
-"description": "Implements multiple interfaces and demonstrates code reuse.",
-"difficulty": "Intermediate"
-}
-],
+---
 
-"Exception Handling": [
-{
-"filename": "TryCatchDemo.java",
-"language": "Java",
-"description": "Illustrates try-catch block for handling exceptions.",
-"difficulty": "Beginner"
-},
-{
-"filename": "MultipleCatch.java",
-"language": "Java",
-"description": "Demonstrates handling multiple exception types.",
-"difficulty": "Intermediate"
-},
-{
-"filename": "FinallyBlock.java",
-"language": "Java",
-"description": "Shows use of finally block for resource cleanup.",
-"difficulty": "Intermediate"
-}
-],
+## 📖 Table of Contents
 
-"GUI and Advanced Java": [
-{
-"filename": "GUI1.java",
-"language": "Java",
-"description": "Simple Swing GUI with a button and label.",
-"difficulty": "Intermediate"
-},
-{
-"filename": "ClientServer.java",
-"language": "Java",
-"description": "Implements basic client-server communication using sockets.",
-"difficulty": "Advanced"
-},
-{
-"filename": "AWTButtonDemo.java",
-"language": "Java",
-"description": "Demonstrates Java AWT components like Button and Frame.",
-"difficulty": "Intermediate"
-}
-],
+* [Overview](#-overview)
+* [Topics & Structure](#-topics--structure)
 
-"Miscellaneous": [
-{
-"filename": "ArrayDemo1.c",
-"language": "C",
-"description": "Demonstrates array initialization and iteration.",
-"difficulty": "Beginner"
-},
-{
-"filename": "PatternPrinting.cpp",
-"language": "C++",
-"description": "Prints various patterns using nested loops.",
-"difficulty": "Beginner"
-},
-{
-"filename": "RecursionDemo.java",
-"language": "Java",
-"description": "Explains recursion with factorial calculation.",
-"difficulty": "Intermediate"
-}
-]
-}
+  * [1. Basic Programs](#1-basic-programs)
+  * [2. String Handling](#2-string-handling)
+  * [3. File Handling](#3-file-handling)
+  * [4. Object-Oriented Programming](#4-object-oriented-programming)
+  * [5. Exception Handling](#5-exception-handling)
+  * [6. GUI & Advanced Java](#6-gui--advanced-java)
+  * [7. Miscellaneous](#7-miscellaneous)
+* [Getting Started](#-getting-started)
+* [How to Contribute](#-how-to-contribute)
+* [License](#-license)
+* [Credits](#-credits)
+
+---
+
+## 🚀 Overview
+
+This repository contains **hundreds of mini programs** written in **C**, **C++**, and **Java**, each focusing on specific programming topics.
+The goal is to help learners practice and understand both **core language syntax** and **conceptual logic**.
+
+---
+
+## 🧩 Topics & Structure
+
+### 1️⃣ Basic Programs
+
+Learn the building blocks of programming:
+
+```
+Hello.c
+Hello.java
+Addition1.c
+SimpleLoop.cpp
+BasicInput.java
+```
+
+### 2️⃣ String Handling
+
+Understand how strings work in each language:
+
+```
+StrCpySmall.cpp
+StrCatX.cpp
+StringReverse.c
+StringCompare.java
+StringBufferDemo.java
+```
+
+### 3️⃣ File Handling
+
+Programs dealing with reading, writing, and managing files:
+
+```
+ReadFile.cpp
+FileDemo.c
+WriteFile.java
+AppendText.java
+CountCapitalCharacter.cpp
+DisplayNCharacters.cpp
+```
+
+### 4️⃣ Object-Oriented Programming
+
+Explore OOP concepts like classes, inheritance, polymorphism, and abstraction:
+
+```
+Abstract.cpp
+AbstractDemo.java
+Access.cpp
+Inheritance.cpp
+ConstructorOverload.cpp
+PolymorphismDemo.java
+InterfaceExample.java
+EncapsulationDemo.java
+```
+
+### 5️⃣ Exception Handling
+
+Error control and exception management examples:
+
+```
+TryCatchDemo.java
+MultipleCatch.java
+FinallyBlock.java
+CustomException.java
+```
+
+### 6️⃣ GUI & Advanced Java
+
+Simple Java Swing & Networking demos:
+
+```
+GUI1.java
+SwingForm.java
+ClientServer.java
+ServerSocketDemo.java
+AWTButtonDemo.java
+```
+
+### 7️⃣ Miscellaneous
+
+Other helpful snippets and logic-based programs:
+
+```
+ArrayDemo1.c
+MatrixAddition.cpp
+PatternPrinting.cpp
+RecursionDemo.java
+CommandLineArgs.java
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/BharatPatil-1307/C-CPP-JAVA_PRACTICE.git
+cd C-CPP-JAVA_PRACTICE
+```
+
+### Run a program
+
+* **C**
+
+  ```bash
+  gcc filename.c -o output && ./output
+  ```
+* **C++**
+
+  ```bash
+  g++ filename.cpp -o output && ./output
+  ```
+* **Java**
+
+  ```bash
+  javac Filename.java && java Filename
+  ```
+
+Feel free to edit or expand existing programs to deepen your understanding.
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository
+2. Add your new program(s) under the right topic section or folder
+3. Use descriptive filenames (e.g., `ArraySum.cpp`, `FileAppend.java`)
+4. Include comments explaining logic and purpose
+5. Submit a pull request — contributions are always welcome!
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — you are free to use, modify, and share with attribution.
+
+---
+
+## 👨‍💻 Credits
+
+Created and maintained by **Bharat Patil**
+
+> *“Code more. Learn deeper. Build stronger logic.”*
